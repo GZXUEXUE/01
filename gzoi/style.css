@@ -64,7 +64,6 @@
 }input{
 	display: none;
 }input:checked+label{
-	display: flex;
 	width: 600px;
 }input:checked+label.description{
 	opacity: 1 !important;
