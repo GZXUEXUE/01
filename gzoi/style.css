@@ -1,8 +1,8 @@
 *{
-	box-sizing: bother-box;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }body{
 	background-color: #DDDBDB;
 }.wrapper{
@@ -18,7 +18,6 @@
 	justify-content: start;
 }.card{
 	width: 80px;
-	border-radius: .75rem;
 	background-size: cover;
 	cursor: pointer;
 	overflow: hidden;
@@ -26,8 +25,8 @@
 	margin: 0 10px;
 	display: flex;
 	align-items: flex-end;
-	transition: .6s cubic-bezier{.28,-0.03,0,.99};
-	box-shadow: 0 10px 30px -5px rgba{0,0,0,0.8};
+	transition: .6s cubic-bezier(.28,-0.03,0,.99);
+	box-shadow: 0 10px 30px -5px rgba(0,0,0,0.8);
 }.card>.row{
 	color: white;
 	display: flex;
@@ -41,9 +40,9 @@
 	opacity: .7;
 	align-items: center;
 	margin: 15px;
-}.card:nth-child(2).icon{
+}.card:nth-child(1) .icon{
 	background-color: #7392a2;
-}.card:nth-child(4).icon{
+}.card:nth-child(2) .icon{
 	background-color: #b0c9df;
 }.card>.row>.description{
 	display: flex;
@@ -63,9 +62,9 @@
 	text-transform: uppercase;
 }input{
 	display: none;
-}input:checked+label{
+}input:checked + label{
 	width: 600px;
-}input:checked+label.description{
+}input:checked + label .description{
 	opacity: 1 !important;
 	transform: translateY(0) !important;
 }.card[for = 'c1']{
