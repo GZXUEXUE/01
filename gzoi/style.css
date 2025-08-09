@@ -60,11 +60,10 @@
 	color: #eaeaef;
 	padding-top: 5px;
 }.description h4{
-	color: #eaeaef;
+	text-transform: uppercase;
 }input{
 	display: none;
 }input:checked+label{
-	display: flex;
 	width: 600px;
 }input:checked+label.description{
 	opacity: 1 !important;
