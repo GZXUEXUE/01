@@ -56,10 +56,10 @@
 	transition-delay: .3s;
 	transition: all .3s ease;
 }.description p{
-	color: #0f0f0f;
+	color: #888888;
 	padding-top: 5px;
 }.description h4{
-	color: #0f0f0f;
+	color: #888888;
 	text-transform: uppercase;
 }input{
 	display: none;
