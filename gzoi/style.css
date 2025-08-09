@@ -20,7 +20,7 @@
 	width: 80px;
 	border-radius: .75rem;
 	background-size: cover;
-	cursur: pointer;
+	cursor: pointer;
 	overflow: hidden;
 	border-radius: 2rem;
 	margin: 0 10px;
@@ -60,7 +60,7 @@
 	color: #eaeaef;
 	padding-top: 5px;
 }.description h4{
-	text-transform: uppercase;
+	color: #eaeaef;
 }input{
 	display: none;
 }input:checked+label{
