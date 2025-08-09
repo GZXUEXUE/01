@@ -52,7 +52,7 @@
 			}.card:nth-child(2).icon{
 				background-color: #7392a2;
 			}.card:nth-child(4).icon{
-				background-colro: #b0c9df;
+				background-color: #b0c9df;
 			}.card>.row>.description{
 				display: flex;
 				justify-content: center;
@@ -71,9 +71,10 @@
 				text-transform: uppercase;
 			}input{
 				display: none;
-			}input:checked + label{
+			}input:checked+label{
+				display: flex;
 				width: 600px;
-			}input:checked + label .description{
+			}input:checked+label.description{
 				opacity: 1 !important;
 				transform: translateY(0) !important;
 			}.card[for = 'c1']{
@@ -95,7 +96,8 @@
 							<p>山水之行</p>
 						</div>
 					</div>
-				</label><input type = "ratio" name = "slide" id = "c2" checked/>
+				</label>
+				<input type = "ratio" name = "slide" id = "c2"/>
 				<label for = "c2" class = "card">
 					<div class = "row">
 						<div class = "icon">2</div>
