@@ -19,6 +19,12 @@
 				text-align: center;
 				margin: auto;
 				color: whitesmoke;
+			}.links-container{
+				display: flex;
+				gap: 20px;
+				justify-content: center;
+				flex-wrap: wrap;
+				margin-top: 20px;
 			}.linker{
 				/* 链接 */
 				display: flex;
@@ -26,7 +32,8 @@
 				justify-content: center;
 				background-color: rgba(255,255,255,0.3);
 				height: 100px;
-				width: 25%;
+				width: 200px;
+				min-width: 150px;
 				backdrop-filter: blur(20px);
 				border-radius: 5px;
 				text-decoration: none;
@@ -43,7 +50,7 @@
 		</div>
 		<hr>
 		<p>欢迎来到 GZXUEXUE 的个人主页！但是这里还没有完工。</p>
-		<div>
+		<div class = "links-container">
 			<a href = "/01/gzoi">
 				<div class = "linker">
 					<div class = "linkertext">
@@ -61,3 +68,4 @@
 		</div>
 	</body>
 </html>
+
