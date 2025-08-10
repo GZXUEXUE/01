@@ -40,8 +40,10 @@
 	opacity: .7;
 	align-items: center;
 	margin: 15px;
-}.icon{
+}.icon[for = 'typ1']{
 	background-color: #b0c9df;
+}.icon[for = 'typ2']{
+	background-color: #7392a2;
 }.card>.row>.description{
 	display: flex;
 	justify-content: center;
@@ -71,4 +73,3 @@
 }.card[for = 'c2']{
 	background-image: url("/01/gzoi/img/gzoi_1.jpg");
 }
-
