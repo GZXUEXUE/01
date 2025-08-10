@@ -40,9 +40,7 @@
 	opacity: .7;
 	align-items: center;
 	margin: 15px;
-}.card:nth-child(1) .icon{
-	background-color: #7392a2;
-}.card:nth-child(2) .icon{
+}.icon{
 	background-color: #b0c9df;
 }.card>.row>.description{
 	display: flex;
@@ -73,3 +71,4 @@
 }.card[for = 'c2']{
 	background-image: url("/01/gzoi/img/gzoi_1.jpg");
 }
+
