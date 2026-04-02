@@ -1,4 +1,4 @@
-var ans = "ginopelia";
+var ans = "oblivion_phin";
 function verify(){
     inp = document.WhyAreYouLookingThis.veri.value;
     var res_ele = document.getElementsByName("result")[0];
